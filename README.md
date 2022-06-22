@@ -1,6 +1,8 @@
+
+
 ### Project Name
 
-  # capstone project 1: Home Construction website 
+  # Rock-Paper-Scissors  
   
 
 ## Built With
@@ -12,7 +14,8 @@
 
 ## Getting Started  
 
-  This project aims at building an online website for a Home care and repair 
+  This project aims at building a basic Rock Paper Scissors Game .Where you will be playing against the computer.
+  
 
   Please follow the steps below for getting started and editing the files from your local machine.
 
@@ -35,16 +38,14 @@
         4 - Run "npx hint ." to run the HTML linter for a check
         5 - Fix validation errors
 
-
-    
-    * Setup for CSS-checker called stylelint
-
+      * Setup for CSS-Checker Called Stylelint
+        
         1 - run  "npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x"
-
-        2 - Copy ".stylelintrc.json to the root directory of your project."
+        2 - Copy ".stylelintrc.json to the root directory of your project"
         3 - Do not make any changes in config files
-        4 - Run "npx stylelint "**/*.{css,scss}"  to run the CSS linter for a check
-        5 - Fix validation errors.
+        4 - Run "npx stylelint "**/*.{css,scss}" to run the HTML linter for a check
+        5 - Fix validation errors
+
     
     * Setup for JavaScript-checker called ESlint
 
@@ -58,47 +59,36 @@
     
 ## Usage
 
-    In the capstone project 1, we will:
+    In the Project , we will:
 
     - Implement the following interactions:
         
-We will build only these 2 pages:
+        A classic two-person game. Players start each round by saying, 
+        “rock, paper, scissors, shoot!” On “shoot,” each player holds out their fist for rock,
+        flat hand for paper, or their index and middle finger for scissors. Rock crushes scissors,
+        scissors cut paper, and paper covers rock. See who wins each round!
 
-    The home page.
-    The about page.
+            Players start each round by choosing, “rock, paper, scissors" 
 
-Each of these pages will have versions for 2 different screen sizes:
+            Begin with a function called computerPlay that will randomly return either ‘Rock’, ‘Paper’ or ‘Scissors’.
+            
+            Write a function that plays a single round of Rock Paper Scissors. The function should take two parameters - the playerSelection and computerSelection - and then return a string that declares the winner of the round like so: "You Lose! Paper beats Rock".
+            
+            Make your function’s playerSelection parameter case-insensitive (so users can input rock, ROCK, RocK or any other variation).
 
-    Mobile: up to 768px wide.
-    Desktop: 768px or wider.
-
-Interactions
-
-    Links
-        The home page should have a link in the menu to the about page.
-        The logo in the header links to the home page.
-    Mobile menu
-        When the user clicks (or taps) the hamburger button on the header, the mobile menu appears over the page.
-        There are no guidelines for the mobile menu in the docs, but you should implement it so it is consistent with the design (colors, typography, spacings, etc.).
-        The mobile menu should have a close (X) button that closes the menu.
-
-    Dynamic page
-
-        The section "Featured speakers" should be created dynamically in JavaScript.
-        You should use a JavaScript variable with the data about the speakers and use it when the page loads to create the HTML for this section dynamically.
+            Write a NEW function called game(). Call the playRound function inside of this one to play a 5 round game that keeps score and reports a winner or loser at the end. 
 
 
 
-## 👤 Author
+## 👤 Massaillon Silue
 
     GitHub: @massaillon
     LinkedIn: Massaillon Silue
     Twitter: Massaillon Silue
-
-
+    Email : massaillond@gmail.com
+        
 ## Link to the Live website
    
-    https://massaillon.github.io/home-care/
      
 
 ## 🤝 Contributing
