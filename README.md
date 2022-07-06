@@ -61,22 +61,15 @@
 
     In the Project , we will:
 
-    - Implement the following interactions:
-        
-        A classic two-person game. Players start each round by saying, 
-        “rock, paper, scissors, shoot!” On “shoot,” each player holds out their fist for rock,
-        flat hand for paper, or their index and middle finger for scissors. Rock crushes scissors,
-        scissors cut paper, and paper covers rock. See who wins each round!
+    - Play against the computer.
 
-            Players start each round by choosing, “rock, paper, scissors" 
+            Start each round by clicking one of the button  Rock Paper Scissors
 
-            Begin with a function called computerPlay that will randomly return either ‘Rock’, ‘Paper’ or ‘Scissors’.
-            
-            Write a function that plays a single round of Rock Paper Scissors. The function should take two parameters - the playerSelection and computerSelection - and then return a string that declares the winner of the round like so: "You Lose! Paper beats Rock".
-            
-            Make your function’s playerSelection parameter case-insensitive (so users can input rock, ROCK, RocK or any other variation).
+            Implement the function that will make random choice for the computer
 
-            Write a NEW function called game(). Call the playRound function inside of this one to play a 5 round game that keeps score and reports a winner or loser at the end. 
+            on each click compare the Player's choice and the Computer's choice to find out the Champion 
+
+            record the count and declare the champion to be the first to have a count equal to 5 wins
 
 
 

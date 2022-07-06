@@ -1,3 +1,89 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap");
 @import url('http://fonts.cdnfonts.com/css/cocogoose');
 
+/* The Mobile style version */
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Poppins',sans-serif;
+  width: 100%;
+}
+/* The styling of the Header */
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 400px;
+}
+.para-style {
+  display: flex;
+  justify-content: center;
+  border: 3px solid darkorange;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 10px 10px darkorange;
+}
+
+h1 {
+  color: rgb(49, 46, 46);
+}
+h2 {
+  color:darkorange
+}
+
+.header-image-main {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* The Styling of the main*/
+/* The emoji section */
+
+.selections {
+display: flex;
+justify-content: center;
+margin-top: 20px;
+gap: 20px;
+}
+
+#Rock, #Scissors, #Paper {
+  font-size: 2rem;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 100ms;
+}
+
+#Rock:hover {
+  transform: scale(1.2);
+}
+#Scissors:hover {
+  transform: scale(1.2);
+}
+#Paper:hover {
+  transform: scale(1.2);
+}
+/* The Result section */
+.game-result {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  
+}
+
+.result-score {
+  color: red;
+  font-size: .8rem;
+  margin-left: .1rem;
+}

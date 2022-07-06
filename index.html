@@ -11,25 +11,40 @@
     <!-- The code below is for the Header section -->
     <header>
     <h1>Rock Paper Scissors Game</h1>
-    <h2>The Rules are</h2>
+    <div class="header-image-main">
+        <img alt=" " src="./Rock-paper-Scissors-Images/Rock-paper-scissors.png">
+    </div>
+    <section class="para-style">
+        <h2>The Rules are</h2>
     <p>
-        A classic two-person game. Players start each round by saying, <br>
-        “rock, paper, scissors, shoot!” On “shoot,” each player holds out their fist for rock,<br>
-        flat hand for paper, or their index and middle finger for scissors. Rock crushes scissors,<br>
+        Play against the computer.Start each round by clicking one of the button below<br>
+        “rock, scissors, paper” <br>Rock crushes scissors,
         scissors cut paper, and paper covers rock. See who wins each round!
     </p>
-    <div>
-        <img alt=" " src="./Rock paper Scissors Images/Rock-paper-scissors.png">
-    </div>
+</section>
 </header>
 <main>
+    <h3>Win five times to be victorious</h3>
+    <h4>
+      Player Choice : <span id="player-choice"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      Computer Choice : <span id="computer-choice"></span></h4>
+      <!-- The result section-->
+    <h4>The Winner is ::<span id="round-winner"></span></h4>
+    <!--The count winner section -->
+    <h3>
+        Player Victory Count : <span id="player-victory-count">0</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Computer Victory Count : <span id="computer-victory-count">0</span>
+    </h3>
     <!-- Selections main container-->
     <div class="selections">
-        <button class="slection">✊</button>
-        <button class="slection">🖖</button>
-        <button class="slection">✋</button>
+        <button id="Rock" type="button">Rock ✊</button>
+        <button id="Scissors" type="button">Scissors 🖖</button>
+        <button id="Paper" type="button">Paper ✋</button>
     </div>
-    <!-- The Game Result Section -->
+
+    <!-- The result section-->
+    The Champion After playing 5 rounds is ::<span id="game-winner"></span>
+    <!-- The Game Result Section 
     <div class="game-result">
         <div>You
             <span class="result-score">0</span>
@@ -39,6 +54,7 @@
         </div>
 
     </div>
+    -->
 </main>
 <script src="./script.js"></script> 
 </body>
